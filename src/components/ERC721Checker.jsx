@@ -41,7 +41,7 @@ export const ERC721Checker = ({ bunzz, userAddress }) => {
       )}
       {name ? <p>Name: {name}</p> : <></>}
       {description ? <p>Description: {description}</p> : <></>}
-      {image ? <img src={image} alt="image" className="image" /> : <></>}
+      {image ? <img src={image} alt="nft" className="image" /> : <></>}
     </div>
   );
 };

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { NFTStorage, File } from "nft.storage";
-import {Camera, FACING_MODES} from 'react-html5-camera-photo';
-import 'react-html5-camera-photo/build/css/index.css';
+// import {Camera, FACING_MODES} from 'react-html5-camera-photo';
+// import 'react-html5-camera-photo/build/css/index.css';
 
 const nftStorage = new NFTStorage({
   token: process.env.REACT_APP_NFT_STORAGE_KEY,
